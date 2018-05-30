@@ -19,4 +19,9 @@ public class TopAnimals {
         list.add(new Animal("ganzo", 8, "hawk"));
         list.add(new Animal("Flappy", 8, "bird"));
     }
+
+    public ArrayList<Animal> getList() {
+        return list;
+    }
+
 }
