@@ -1,9 +1,11 @@
 package com.example.codeclan.theshelter;
 
-public class Animal {
+import java.io.Serializable;
+
+public class Animal implements Serializable{
 
     private String name;
-    private int age;
+    private Integer age;
     private String type;
 
     public Animal(String name, int age, String type){
@@ -16,7 +18,7 @@ public class Animal {
         return name;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
